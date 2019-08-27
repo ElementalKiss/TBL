@@ -12,3 +12,10 @@ git clone https://github.com/elementalkiss/tbl /c/work/tbl
 git fetch
 git pull
 ```
+
+# git config update
+
+```
+git config user.name ""
+git config user.email ""
+```
