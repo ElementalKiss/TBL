@@ -1,21 +1,34 @@
 # TBL
 * Today Brothers Learned
 
-# git clone
+
+# git usage
+
+## repository clone
 ```
 git clone https://github.com/elementalkiss/tbl /c/work/tbl
 ```
 
-# git source update
+## user info config setup
+
+```
+git config user.name ""
+git config user.email ""
+```
+
+## source update
 
 ```
 git fetch
 git pull
 ```
 
-# git config update
+## source commit
 
 ```
-git config user.name ""
-git config user.email ""
+git add .
+git commit -m "commit message"
+git push
 ```
+
+* 또는 git gui를 통해 add, commit, push 가능.
