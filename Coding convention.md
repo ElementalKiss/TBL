@@ -33,3 +33,13 @@ void function()
 {
 }
 ```
+
+# if else...
+
+```cpp
+// Good
+if () {
+} else if () {
+} else {
+}
+```
