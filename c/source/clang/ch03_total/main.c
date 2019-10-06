@@ -65,7 +65,7 @@ int main(void)
     printf("--------------------\n");
 
     num1 = 10;
-    num2 = (num1--) + 2;    // 이해가 잘안됨.
+    num2 = (num1--) + 2;
 
     printf("num1: %d \n", num1);
     printf("num2: %d \n", num2);
@@ -100,7 +100,7 @@ int main(void)
     
     printf("Hello"), printf("world! \n");
     num1++, num2++;
-    printf("%d", num1), printf("%d", num2); // 후위연산자의 역활??
+    printf("%d", num1), printf("%d", num2); // 후위연산자의 역활
 
     printf("--------------------\n");
 
@@ -110,7 +110,7 @@ int main(void)
     printf("정수 one: ");
     scanf_s("%d", &num5);
     printf("정수 two: ");
-    scanf_s("%d", &num6); //scanf 사용하면 "This function or variable may be unsafe. Consider using scanf_s instead." 나오면서 빌드 실패 이유확인 필요.
+    scanf_s("%d", &num6); //scanf 사용하면 "This function or variable may be unsafe. Consider using scanf_s instead." 나오면서 빌드 실패
 
     result4 = num5 + num6;
     printf("%d + %d = %d \n", num5, num6, result4);
