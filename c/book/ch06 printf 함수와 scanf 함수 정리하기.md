@@ -35,7 +35,7 @@
 |-|-|-|
 |%d|char, short, int|부호 있는 10진수 정수|
 |%ld|long|부호 있는 10진수 정수|
-|%lld|ㅣlong long|부호 있는 10진수 정수|
+|%lld|long long|부호 있는 10진수 정수|
 |%u|unsigned int|부호 없는 10진수 정수|
 |%o|unsigned int|부호 없는 8진수 정수|
 |%x, %X|unsigned int|부호 없는 16진수 정수|
