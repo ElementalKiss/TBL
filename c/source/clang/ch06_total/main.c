@@ -1,5 +1,5 @@
 /*
-Title: ch05 total
+Title: ch06 total
 Function: print string
 FileName: main.c
 Edit Date: 2019.10.19
